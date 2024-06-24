@@ -1,0 +1,81 @@
+table {
+table-layout: fixed;
+width: 100%;
+border-collapse: collapse;
+border: 2px solid #6c2b2b;
+text-align: center;
+}
+
+#tableCaption {
+	background-color: #6c2b2b;
+	color: white;
+	font-weight: 600;
+}
+
+.container {	
+	table-layout: fixed;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.indicator {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #6c2b2b;
+	font-family: "Arial";
+	padding-left: 20px;
+}
+
+.tablePersonalInformation {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid #6c2b2b;
+	text-align: left;
+}
+
+.tableSummary {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid #6c2b2b;
+	text-align: left;
+	margin-right: 20px;
+	background-color: #fdeca6;
+
+}
+.form_heading {
+	text-align: center;
+	font-family: "Arial";
+	font-size: 110%;
+	color: #6c2b2b;
+}
+
+#test {
+	text-align: center;
+	font-family: "Arial";
+	font-size: 110%;
+	color: black;
+}
+
+.scholarship_grant {
+	display: inline-table;
+}
+
+.billingInfoAllignments {
+	text-align: left; 
+	padding-left: 10px; 
+	color:#6c2b2b; 
+	border-bottom: 1px solid;
+}
+
+.money {
+	padding-right: 20px;
+	text-align: right;
+}
+
+.payments {
+	text-align: left;
+	padding-left: 30px;
+	color: #6c2b2b;
+}

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<head>
+    <script defer src="jsfunction.js"></script>
+    <link rel = "stylesheet" href = "design.css">
+
+    <title>restaurant</title>
+    <div class = "header">
+        <div id = "header_title">Luto ni Nanay</div>
+    </div>
+</head>
+
+<body class = "html_body">
+
+        <section class="hidden">
+        <hr style="height:2px;border-width:0;color:gray;background-color:white">
+        <div style = "font-family: 'Century Gothic'; color:white; font-size: 30px; text-align: center; padding-bottom: 30px;"><strong>SHIRTS</strong></div>
+        
+        <div class = "item_container">
+            <img class = "dish_style" src = "apetizer/beef_empanada.png">
+            <img class = "dish_style" src = "apetizer/lumpiang_sariwa.png">
+            <img class = "dish_style" src = "apetizer/salted_egg_shrimp.png">
+            <img class = "dish_style" src = "apetizer/sizzling_tofu.png">
+        </div>
+        </section>
+
+        <section class="hidden">     
+        <div class="order_quantity_container">
+            <label for="quantity1" class = "quantity_text" style="padding-left: 100px;">Quantity
+                <input type="number" id="quantity1" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br>
+            
+            <label for="quantity2" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity2" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br>
+            
+            <label for="quantity3" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity3" name="quantity" min="0" value="0" class="quantity_design">
+            </label>
+    
+            <label for="quantity4" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity4" name="quantity" min="0" value="0" class="quantity_design">          
+            </label><br><br>
+        </div>
+        </section>
+
+
+<br><br><br><br>
+
+        <section class="hidden">
+        <hr style="height:2px;border-width:0;color:gray;background-color:white">
+        <div style = "font-family: 'Century Gothic'; color:white; font-size: 30px; text-align: center;padding-bottom: 30px;"><strong>PANTS</strong></div>
+        
+        <div class = "item_container">
+            <img class = "dish_style" src = "main dish/chicken_aroz.png">
+            <img class = "dish_style" src = "main dish/chicken_pochero.png">
+            <img class = "dish_style" src = "main dish/pinakbet.png">
+            <img class = "dish_style" src = "main dish/pork_adobo.png">
+        </div>
+        </section>
+
+      
+        <section class="hidden">
+        <div class="order_quantity_container">
+            <label for="quantity5" class = "quantity_text" style="padding-left: 100px;">Quantity
+                <input type="number" id="quantity5" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br>
+            
+            <label for="quantity6" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity6" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br>
+            
+            <label for="quantity7" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity7" name="quantity" min="0" value="0" class="quantity_design">
+            </label>
+    
+            <label for="quantity8" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity8" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br><br>
+        </div>
+        </section>
+        
+
+<br><br><br><br>
+
+        
+        <section class="hidden">
+        <hr style="height:2px;border-width:0;color:gray;background-color:white">
+        <div style = "font-family: 'Century Gothic'; color:white; font-size: 30px; text-align: center; padding-bottom: 30px;"><strong>SANDO</strong></div>
+       
+        <div class = "item_container">
+            <img class = "dish_style" src = "dessert/cassava.png">
+            <img class = "dish_style" src = "dessert/egg_pie.png">
+            <img class = "dish_style" src = "dessert/halohalo.png">
+            <img class = "dish_style" src = "dessert/leche_flan.png">
+        </div>
+        </section>
+        
+      
+        <section class="hidden">
+        <div class="order_quantity_container">
+            <label for="quantity9" class = "quantity_text" style="padding-left: 100px;">Quantity
+                <input type="number" id="quantity9" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br>
+            
+            <label for="quantity10" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity10" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br>
+            
+            <label for="quantity11" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity11" name="quantity" min="0" value="0" class="quantity_design">
+            </label>
+    
+            <label for="quantity12" class = "quantity_text" style="padding-left: 150px">Quantity
+                <input type="number" id="quantity12" name="quantity" min="0" value="0" class="quantity_design">
+            </label><br><br>
+        </div>
+        </section>
+
+
+<br><br><br><br>
+
+        <form>
+            <div class="radio_button_allignment">
+            <label class = "quantity_text">STUDENT DISCOUNT 10%: 
+            <input type="radio" id="studentCB" name="discount" value="student discount" class="radio_button_design">
+            </label>
+
+            <label class = "quantity_text" style="padding-left: 50px;">PDW DISCOUNT 30%: 
+            <input type="radio" id="pwdCB" name="discount" value="pdw discount" class="radio_button_design">
+            </label>
+
+            <label class = "quantity_text">SENIOR DISCOUNT 20%:
+            <input type="radio" id="seniorCB" name="discount" value="senior discount" class="radio_button_design">
+            </label>
+
+            <label class = "quantity_text">NO DISCOUNT:
+            <input type="radio" id="no discount" name="discount" value="nothing" class="radio_button_design">
+            </label>
+            </div>
+        </form>
+   
+
+<br><br><br><br>
+    
+    <button id = "button_style"onclick="orderItems()">ORDER NOW</button>
+    </div>
+    
+    <script>
+        function orderItems() {
+            var quantities = document.querySelectorAll('input[name="quantity"]');
+            var totalPrice = 0;
+            var totalPrice2 = 0;
+            var orderSummary = "You ordered: \n";
+            var studentDiscountApplied = document.getElementById('studentCB').checked;
+            var pdwDiscountApplied = document.getElementById('pwdCB').checked;
+            var seniorDiscountApplied = document.getElementById('seniorCB').checked;
+
+            quantities.forEach(function(quantity, index) {
+                var itemName = "";
+                var itemPrice = 0;
+                var quantityValue = parseInt(quantity.value);
+
+                switch(index) {
+                    case 0:
+                        itemName = "BEEF EMPANADA";
+                        itemPrice = 50;
+                        break;
+                    case 1:
+                        itemName = "LUMPIANG SARIWA";
+                        itemPrice = 75;
+                        break;
+                    case 2:
+                        itemName = "SALTED EGG SHRIMP";
+                        itemPrice = 75;
+                        break;
+                    case 3:
+                        itemName = "SIZZLING TOFU";
+                        itemPrice = 75;
+                        break;
+                    case 4:
+                        itemName = "CHICKEN AROZ CALDO";
+                        itemPrice = 125;
+                        break;
+                    case 5:
+                        itemName = "CHICKEN POCHERO";
+                        itemPrice = 125;
+                        break;
+                    case 6:
+                        itemName = "PINAKBET";
+                        itemPrice = 100;
+                        break;
+                    case 7:
+                        itemName = "PORK ADOBO";
+                        itemPrice = 150;
+                        break;
+                    case 8:
+                        itemName = "CASSAVA CAKE";
+                        itemPrice = 120;
+                        break;
+                    case 9:
+                        itemName = "EGG PIE";
+                        itemPrice = 70;
+                        break;
+                    case 10:
+                        itemName = "HALO - HALO";
+                        itemPrice = 80;
+                        break;
+                    case 11:
+                        itemName = "LECHE FLAN";
+                        itemPrice = 100;
+                        break;
+                }
+
+                var itemTotalPrice = itemPrice * quantityValue;
+                var itemTotalPriceNoDiscount = itemPrice * quantityValue;
+    
+                if (quantityValue > 0) {
+                    if (studentDiscountApplied) {
+                        itemTotalPrice -= (itemTotalPrice * 0.10);
+                        itemTotalPriceNoDiscount = itemPrice * quantityValue;
+                    }
+                    else if (pdwDiscountApplied) {
+                        itemTotalPrice -= (itemTotalPrice * 0.30);
+                        itemTotalPriceNoDiscount = itemPrice * quantityValue;
+                    }
+                    else if (seniorDiscountApplied) {
+                        itemTotalPrice -= (itemTotalPrice * 0.20);
+                        itemTotalPriceNoDiscount = itemPrice * quantityValue;
+                    }
+                totalPrice += itemTotalPrice;
+                totalPrice2 += itemTotalPriceNoDiscount
+                orderSummary += itemName + " - Quantity: " + quantityValue + ", Price: ₱" + itemPrice + "\n";
+
+                }
+            });
+
+            if (totalPrice > 0) {
+                if (studentDiscountApplied) {
+                    orderSummary += "\nTotal Price: " + totalPrice2 + "\nStudent Discount: " + (totalPrice2 * .10) + "\nTotal Price: ₱" + totalPrice.toFixed(2);
+                    alert(orderSummary);
+                }
+                else   if (pdwDiscountApplied) {
+                    orderSummary += "\nTotal Price: " + totalPrice2 + "\nPDW Discount: " + (totalPrice2 * .30) + "\nTotal Price: ₱" + totalPrice.toFixed(2);
+                    alert(orderSummary);
+                }
+                else if (studentDiscountApplied) {
+                    orderSummary += "\nTotal Price: " + totalPrice2 + "\nSenior Discount: " + (totalPrice2 * .20) + "\nTotal Price: ₱" + totalPrice.toFixed(2);
+                    alert(orderSummary);
+                } else {
+                    orderSummary += "\nTotal Price: ₱" + totalPrice.toFixed(2);
+                    alert(orderSummary);
+                }
+            } else {
+                alert("Please specify the quantity for at least one item to order.");
+            }
+        }
+    </script>
+	
+    <hr style="height:2px;border-width:0;color:gray;background-color:white">
+    <br><br><br><br><br>
+</body>
+</html>

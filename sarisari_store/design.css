@@ -1,0 +1,93 @@
+.header {
+    box-shadow: 0px 5px 5px lightgray;
+    padding: 50px;
+	background-color: #770e0e;
+    }
+
+#header_title {
+    color: White;
+    font-family: 'Century Gothic';
+    font-size: 60px;
+}
+
+.html_body {
+    background-color: #212128
+}
+
+
+.item_container {
+    display: flex;
+    height: 380px;
+    width: 380px;
+    margin-left: 30px;
+    margin-right: 40px;
+	padding-left: auto;
+    padding-right: auto;
+}
+
+.item_style {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 40px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.order_quantity_container {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+	padding-left: 100px;
+}
+
+.radio_button_allignment {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'century gothic';
+    color: white;
+}
+
+#button_style {
+    background-color: #770e0e;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    align-self: center;
+
+}
+
+.quantity_text {
+    color: white; 
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.quantity_design {
+    border-radius: 5px;
+    border-color: white;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 3px;
+
+}
+
+.radio_button_design {
+    margin-right: 80px;
+    height: 20px;
+    width: 50px;
+}
